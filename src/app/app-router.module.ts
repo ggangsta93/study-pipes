@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { BasicsComponent } from './sales/pages/basics/basics.component';
 import { NumbersComponent } from './sales/pages/numbers/numbers.component';
