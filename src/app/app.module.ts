@@ -8,9 +8,11 @@ import { AppRouterModule } from './app-router.module';
 
 //Cambiar el local de la app
 import localEs from '@angular/common/locales/es-CO';
+import localFr from '@angular/common/locales/fr-CA';
 import {registerLocaleData} from '@angular/common';
 
 registerLocaleData(localEs);
+registerLocaleData(localFr);
 @NgModule({
   declarations: [
     AppComponent
